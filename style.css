@@ -1,0 +1,27 @@
+/* Apply a natural box layout model to all elements: http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.chromeframe {position: absolute; top: 0;}
+
+/* style */
+html{background:rgba(200,200,200,1);}
+body{padding:2%; margin:5% auto 20% auto; background:rgba(235,235,235,1);}
+div#slideshow{background:rgba(255,255,255,1);}
+div#frame{height:500px; overflow:hidden;}
+div#frame div{width:100%; height:500px;}
+.pink{background:pink;}
+.blue{background:blue;}
+.green{background:green;}
+.orange{background:orange;}
+.yellow{background:yellow;}
+.red{background:red;}
+
+
+/* Media queries */
+@media screen and (max-width: 780px) {
+body{background: rgba(240, 240, 240, 1.0);}
+}
+
+@media screen and (max-width: 420px) {
+body{background: rgba(210, 210, 210, 1.0);}
+}
